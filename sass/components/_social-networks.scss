@@ -18,15 +18,15 @@
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    color: var(--primary-icon-color);
+    color: $color-icon-primary;
 
     transition: color var(--transition-duration) var(--transition-timing-function),
         background-color var(--transition-duration) var(--transition-timing-function);
 }
 
 .social-networks__link--dark {
-    background-color: var(--footer-icon-bgc);
-    color: var(--white);
+    background-color: $color-icon-footer;
+    color: $color-white;
 }
 
 .social-networks__icon {
@@ -35,6 +35,6 @@
 
 .social-networks__link:hover,
 .social-networks__link:focus {
-    background-color: var(--accent-color);
-    color: var(--white);
-}
+    background-color: $color-accent;
+    color: $color-white;
+} 

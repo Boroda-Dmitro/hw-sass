@@ -1,7 +1,7 @@
 /* footer */
 
 .site-footer {
-    background-color: var(--secondary-background-color);
+    background-color: $color-background-secondary;
     padding: 60px 0;
 }
 
@@ -24,20 +24,20 @@
 
 .address__link {
     @extend %link;
-    color: var(--footer-link);
+    color: $color-footer-link;
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
 }
 
 .address__link--color {
-    color: var(--white);
+    color: $color-white;
     text-decoration: none;
 }
 
 .address__link--target:hover,
 .address__link--target:focus {
-    color: var(--accent-color);
+    color: $color-accent;
 }
 
 
@@ -53,7 +53,7 @@
     font-size: 14px;
     line-height: 1.14;
 
-    color: var(--white);
+    color: $color-white;
 }
 
 .footer-group--grow {
@@ -75,19 +75,20 @@
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 4px;
     background-color: inherit;
-    color: var(--white);
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    color: $color-white;
+    transition: border-color 250ms var(--transition-timing-function);
 }
 
 .subscribe-form__email:focus {
-    border-color: var(--accent-color);
+    border-color: $color-accent;
     outline: none;
 }
 
 .subscribe-form__email::placeholder {
     font-size: 16px;
     line-height: 1.25;
-    color: var(--placeholder-footer-color);
+    color: $color-footer-link;
 }
 
 .subscribe-form__submit-bnt {

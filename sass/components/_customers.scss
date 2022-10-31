@@ -14,8 +14,8 @@
     align-items: center;
     width: 170px;
     height: 92px;
-    color: var(--primary-icon-color);
-    border: 1px solid var(--primary-icon-color);
+    color: $color-icon-primary;
+    border: 1px solid $color-icon-primary;
     border-radius: 4px;
 
     transition: color var(--transition-duration) var(--transition-timing-function),
@@ -24,8 +24,8 @@
 
 .customers__link:hover,
 .customers__link:focus {
-    color: var(--accent-color);
-    border: 1px solid var(--accent-color);
+    color: $color-accent;
+    border: 1px solid $color-accent;
     outline: none;
 }
 

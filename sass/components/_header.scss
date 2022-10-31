@@ -27,7 +27,7 @@
     padding-top: 32px;
     padding-bottom: 32px;
 
-    color: var(--title-text-color);
+    color: $color-title;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -38,7 +38,7 @@
 
 .site-nav__link:hover,
 .site-nav__link:focus {
-    color: var(--accent-color);
+    color: $color-accent;
 }
 
 /* header-contaсts */
@@ -72,14 +72,14 @@
 
 .header-contaсts__link:hover,
 .header-contaсts__link:focus {
-    color: var(--accent-color);
+    color: $color-accent;
 }
 
 /* активна сторінка */
 
 .site-nav__link--active {
     position: relative;
-    color: var(--accent-color);
+    color: $color-accent;
 }
 
 .site-nav__link--active::after {
@@ -90,5 +90,5 @@
     width: 100%;
     height: 4px;
     border-radius: 2px;
-    background-color: var(--accent-color);
+    background-color: $color-accent;
 }
