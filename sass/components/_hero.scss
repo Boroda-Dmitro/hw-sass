@@ -1,10 +1,9 @@
 .hero {
-    background-color: $color-background-secondary;
+  background-color: $color-background-secondary;
 
-    text-align: center;
-}
+  text-align: center;
 
-.hero__overlay {
+  &__overlay {
     margin: 0 auto;
     padding-top: 200px;
     padding-bottom: 200px;
@@ -15,11 +14,8 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
-    /* outline: 1px solid blue; */
-}
-
-.hero__title {
+  }
+  &__title {
     display: block;
     margin: 0 auto;
     max-width: 696px;
@@ -30,4 +26,5 @@
     line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+  }
 }

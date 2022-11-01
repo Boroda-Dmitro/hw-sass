@@ -1,34 +1,34 @@
 /* customers */
 
 .customers__list {
-    @extend %list;
-    display: flex;
-    gap: 30px;
-    flex-wrap: wrap;
+  @extend %list;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
 }
 
 .customers__link {
-    @extend %link;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 170px;
-    height: 92px;
-    color: $color-icon-primary;
-    border: 1px solid $color-icon-primary;
-    border-radius: 4px;
+  @extend %link;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+  color: $color-icon-primary;
+  border: 1px solid $color-icon-primary;
+  border-radius: 4px;
 
-    transition: color var(--transition-duration) var(--transition-timing-function),
-        border-color var(--transition-duration) var(--transition-timing-function);
-}
+  transition: color var(--transition-duration) var(--transition-timing-function),
+    border-color var(--transition-duration) var(--transition-timing-function);
 
-.customers__link:hover,
-.customers__link:focus {
+  &:hover,
+  &:focus {
     color: $color-accent;
     border: 1px solid $color-accent;
     outline: none;
+  }
 }
 
 .customers__icon {
-    fill: currentColor;
+  fill: currentColor;
 }
