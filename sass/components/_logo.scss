@@ -1,5 +1,6 @@
 .logo {
   @extend %link;
+  display: inline-block;
   color: $color-accent;
   font-family: 'Raleway', sans-serif;
   font-weight: $font-weight-title;
@@ -7,17 +8,13 @@
   line-height: 1.19;
 }
 
-.navigation__logo {
-  &--color {
-    color: $color-black;
-  }
+.site-footer__logo {
+  margin-bottom: 20px;
 }
 
-.footer-group__logo {
-  display: inline-block;
-  margin-bottom: 20px;
-
-  &--color {
+.logo__text {
+  color: $color-black;
+  &--contrast {
     color: $color-white;
   }
 }
